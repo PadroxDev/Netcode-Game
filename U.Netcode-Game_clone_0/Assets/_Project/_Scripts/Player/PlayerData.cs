@@ -7,6 +7,17 @@ namespace Padrox
     [CreateAssetMenu(menuName = "Player/Data", fileName = "New Player Data")]
     public class PlayerData : ScriptableObject
     {
-        public float BaseMoveSpeed;
+        [Header("Movement")]
+        public float MoveSpeed;
+        public float GroundDrag;
+        public float AirDrag;
+
+        [Header("Rotation")]
+        public float RotationSpeed;
+
+        [Header("Ground Check")]
+        public float GroundCheckDistance;
+        public float GroundCheckRadius;
+        public LayerMask WhatIsGround;
     }
 }

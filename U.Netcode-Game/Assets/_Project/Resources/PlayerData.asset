@@ -12,4 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd6f4e48ad1396d46bcda1eeb1615c5b, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
-  BaseMoveSpeed: 10
+  MoveSpeed: 7
+  GroundDrag: 5
+  AirDrag: 0
+  RotationSpeed: 7
+  GroundCheckDistance: 0.3
+  GroundCheckRadius: 0.3
+  WhatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
