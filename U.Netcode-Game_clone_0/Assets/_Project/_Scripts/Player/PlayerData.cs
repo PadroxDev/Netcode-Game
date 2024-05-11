@@ -17,7 +17,10 @@ namespace Padrox
 
         [Header("Ground Check")]
         public float GroundCheckDistance;
-        public float GroundCheckRadius;
         public LayerMask WhatIsGround;
+
+        [Header("Slope Handling")]
+        public float MaxSlopeAngle;
+        public float SlopeCastDistance;
     }
 }

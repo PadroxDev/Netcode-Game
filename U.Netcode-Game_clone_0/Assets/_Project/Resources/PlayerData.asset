@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd6f4e48ad1396d46bcda1eeb1615c5b, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
-  MoveSpeed: 7
+  MoveSpeed: 10
   GroundDrag: 5
   AirDrag: 0
-  RotationSpeed: 7
+  RotationSpeed: 3.5
   GroundCheckDistance: 0.3
-  GroundCheckRadius: 0.3
   WhatIsGround:
     serializedVersion: 2
     m_Bits: 64
+  MaxSlopeAngle: 30
+  SlopeCastDistance: 0.4
